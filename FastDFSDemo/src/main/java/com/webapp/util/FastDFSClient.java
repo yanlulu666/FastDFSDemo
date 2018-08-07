@@ -31,8 +31,8 @@ import java.util.UUID;
 public class FastDFSClient {
 
 //    private static final String FAST_DFS_CONF_FILE = "src/main/resources/fastdfs/fdfs_client.conf";
-    
-    private static final String FAST_DFS_CONF_FILE = "E:\\GitWorkSpace\\ODR_R253\\ODR2-Web\\dispute_DMMR\\src\\main\\resources\\fastdfs\\fdfs_client.conf";
+    //本地路径
+    private static final String FAST_DFS_CONF_FILE = "E:\\javaworkspace2\\FastDFSDemo\\src\\main\\resource\\fdfs_client.conf";
 
     private static StorageClient1 storageClient1 = null;
 
