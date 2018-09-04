@@ -15,5 +15,9 @@ wget http://nginx.org/download/nginx-1.8.0.tar.gz
 fastdfs-nginx-module版本使用1.16
 wget http://jaist.dl.sourceforge.net/project/fastdfs/FastDFS%20Nginx%20Module%20Source%20Code/fastdfs-nginx-module_v1.16.tar.gz
 
+配置fastDFS和Nginx如果出现404解决方案：
+cd /usr/local/nginx/conf/nginx.conf
+在#user nobody 下添加user root;
+
 注意：上面实例安装nginx的时候缺少make和make install，在执行了./configure --add-module=../fastdfs-nginx-module-master/src/之后 进行执行。
 还要注意端口冲突问题
